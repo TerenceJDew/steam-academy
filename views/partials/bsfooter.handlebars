@@ -1,0 +1,51 @@
+
+<div class="footer">
+<ul class="footer-list">
+<li class="footer-item"><a href="https://www.facebook.com/KSSTEAMAcademy/" target="_blank"><img src=img/STEAM_Academy_Website_Facebook.png></a></li>
+<li class="footer-item"><a  href="https://www.instagram.com/steamacademy/" target="_blank"><img src=img/STEAM_Academy_Website_Insta.png></a></li>
+<li class="footer-item" ><a class="myBtn"><img src=img/STEAM_Academy_Website_Mail.png></a></li>
+</ul>
+   
+    <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+       Modal content
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span style="margin-right:8px;" class="glyphicon glyphicon-envelope"></span> Let's Talk More!</h4>
+            <p style="color:black;font-size:13px;">Submission may freeze windown on Safari but your email was sent and we're working hard on fixing it! Reload the page to keep exploring!</p>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          
+    <form action="contact" method="post" >
+            <div class="form-group">
+              <label for="username"><span style="margin-right:8px;" class="glyphicon glyphicon-user"></span>Site Contact Name</label>
+              <input type="text" class="form-control" name="usrname" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group">
+              <label for="email"><span style="margin-right:8px;" class="glyphicon glyphicon-envelope"></span>Contact Email</label>
+              <input type="text" class="form-control" name="email" placeholder="Enter email">
+            </div>
+              <div class="form-group">
+              <label for="info"><span style="margin-right:8px;" class="glyphicon glyphicon-eye-open"></span>Describe your Site</label>
+                  <textarea rows="4" cols="25" type="text" class="form-control" name="content" placeholder="i.e My site is an afterschool site with this many kids. We are DYCD funded and need a STEAM program. Our kids our currently not engaged as we want them to be"></textarea>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"></span>Start the Chat</button>
+          </form>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>    
+
+
+<script>    
+$(document).ready(function(){
+    $(".myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>      

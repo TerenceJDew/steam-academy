@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- References a Handlebars partial in views/partials/head.handlebars -->
+{{>head}}
+
+<title>Welcome to STEAM Academy</title> 
+</head>
+
+<body>
+<div class="container-fluid body-div"> 
+<div class="gradient"></div>
+<!-- References a Handlebars partial in views/partials/bsnavbar.handlebars -->
+
+{{>bsnavbar}}    
+
+<!-- The HTML for each view goes here -->
+{{{body}}}
+   
+{{>bsfooter}}
+    
+</div> 
+    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+    
+</html>
