@@ -115,6 +115,7 @@ p{
 li.footer-item{
         display:inline-block;
         margin-right:10px;
+        cursor: pointer;
     }
     
 .footer-list{
