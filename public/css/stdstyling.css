@@ -15,6 +15,10 @@ h2{
     font-size:35px;
 }
 
+.pdfButton{
+  margin-bottom: 0;  
+}
+
 p{
     color: white;
     font-size:19px;
@@ -147,7 +151,7 @@ li.footer-item{
 
 .sub-header{
        text-align:center; 
-       margin-bottom:10px;
+       margin-bottom:15px;
     }
 
 .main-p
@@ -176,7 +180,7 @@ li.footer-item{
 }
 
 .container{
-    margin-top: 30px;
+    margin-top: 40px;
     
 }
 
@@ -229,9 +233,9 @@ li.footer-item{
 
 a{
   text-decoration: none;
-  margin: 20px auto;
   display: inline-block;
 }
+
 
 
 .button-container{
@@ -244,7 +248,7 @@ a{
     
     font-size: 15px;
     font-weight: 800;
-    
+    margin: 20px auto;
     border-radius: 23px;
     line-height: 1;
     cursor:pointer;
