@@ -1,11 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,800,300,400);    
     
- 
-h1{
+
+h1,h2{
     color: white;
-    font-size:65px;
     font-family: 'Open Sans', sans-serif;
     font-weight:800;
+}
+
+h1{
+    font-size:65px;
+}
+
+h2{
+    font-size:35px;
 }
 
 p{
@@ -136,6 +143,11 @@ li.footer-item{
 .main-header{
        text-align:center; 
        margin-bottom:30px;
+    }
+
+.sub-header{
+       text-align:center; 
+       margin-bottom:10px;
     }
 
 .main-p
@@ -277,6 +289,7 @@ a{
         
     margin-top:25px;
     }
+
 h1{
     font-size:40px;
 }

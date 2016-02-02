@@ -42,6 +42,11 @@ app.get('/rethinkcommunities', function(req, res){
         
         });
 
+app.get('/applyhere', function(req, res){
+        res.render('applyhere');
+        
+        });
+
 app.post('/contact', function contact(req, res) {
     
     if (!req.body) return res.sendStatus(400)
