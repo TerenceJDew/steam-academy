@@ -287,6 +287,8 @@ a{
 }
 
 
+
+
 @media screen and (max-width: 500px) {
 
 .centered-content{
@@ -317,35 +319,24 @@ a{
 }
 
 .main-p{
-     
-    margin-bottom:10px;
-    }
+margin-bottom:10px;
+}
+    
 .center-img{
     
      margin-bottom:15px;
-    }
-    
-/*
-body{
-    background:#455fac;
-}   
-*/
+}
+
     
 .container{
     margin: auto;
     margin-top:10px;
     
 }
-    
-/*
-.gradient{
-background-color:#455fac; 
-}
-*/
 
 .back-img{
         visibility: hidden;
-    }
+}
 }
 
 
