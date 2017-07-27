@@ -15,6 +15,14 @@ h2{
     font-size:35px;
 }
 
+h3{
+  color:#FFCC00;  
+}
+h3::first-word{
+  font-size:21px;
+  color: white;
+}
+
 .pdfButton{
   margin-bottom: 0;  
 }
