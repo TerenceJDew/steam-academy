@@ -47,6 +47,11 @@ app.get('/applyhere', function(req, res){
         
         });
 
+app.get('/vrtual', function(req, res){
+        res.render('vrtual');
+        
+        });
+
 app.post('/contact', function contact(req, res) {
     
     if (!req.body) return res.sendStatus(400)
