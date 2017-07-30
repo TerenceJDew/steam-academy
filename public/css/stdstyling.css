@@ -108,7 +108,7 @@ p{
 .navbar-default .navbar-nav>li>a{
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-weight:400;
+    font-weight:500;
     font-size:17px;
     
 }
@@ -136,6 +136,10 @@ p{
     text-decoration: underline;
     text-decoration-color: #FFCC00; 
     text-align: center;
+}
+
+#vr-text{
+    color:#FFCC00;
 }
 
 
@@ -166,12 +170,10 @@ li.footer-item{
     }
 
 .top-img-vr{
-  margin-bottom: 50px;  
+  margin-bottom: 80px;  
 }
 
-#vr-text{
-    color:#FFCC00;
-}
+
 
 .sub-header{
        text-align:center; 
