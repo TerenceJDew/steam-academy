@@ -159,7 +159,7 @@ li.footer-item{
       text-align:center;
     }
 
-.center-img{
+.center-img .top-img-vr{
      display:block;
      margin:auto;
      margin-bottom:30px;
@@ -353,7 +353,7 @@ a{
     margin-bottom:10px;
 }
     
-.center-img {
+.center-img .top-img-vr {
     margin-bottom:15px;
 }
 
