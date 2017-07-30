@@ -16,10 +16,12 @@ h2{
 }
 
 h3{
-  color:#FFCC00;  
+  color:#FFCC00;
+    
 }
 h3::first-word{
   font-size:21px;
+  font-weight: 600;    
   color: white;
 }
 
@@ -129,6 +131,11 @@ p{
         background: #ffffff;
         
     }
+
+#vr-addition{
+    text-decoration: underline;
+    text-decoration-color: #FFCC00; 
+}
 
 
 li.footer-item{
