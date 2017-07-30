@@ -319,7 +319,6 @@ a{
 @media screen and (max-width: 500px) {
 
 .centered-content{
-        
     margin-top:25px;
     }
 
@@ -336,22 +335,26 @@ p{
     margin: 0 auto;
 }
     
+.top-img-vr{
+    width: 222.059px;
+    height: 40px;
+}
+    
 .nav-text{
     padding-top:0;
     margin-left:0;
     }
     
 a{
-  margin: 10px auto;
+    margin: 10px auto;
 }
 
 .main-p{
-margin-bottom:10px;
+    margin-bottom:10px;
 }
     
 .center-img {
-    
-     margin-bottom:15px;
+    margin-bottom:15px;
 }
 
     
@@ -362,7 +365,7 @@ margin-bottom:10px;
 }
 
 .back-img{
-        visibility: hidden;
+    visibility: hidden;
 }
 }
 
