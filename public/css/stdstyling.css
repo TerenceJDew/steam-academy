@@ -132,7 +132,7 @@ p{
         
     }
 
-#vr-addition{
+#vr-addition>a{
     text-decoration: underline;
     text-decoration-color: #FFCC00; 
     text-align: center;
@@ -140,6 +140,7 @@ p{
 
 #vr-text>a{
     color:#FFCC00;
+    font-weight: 800;
 }
 
 
