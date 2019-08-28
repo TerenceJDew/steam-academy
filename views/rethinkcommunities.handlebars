@@ -6,11 +6,22 @@
 <div class="centered-content col-xs-10 col-md-8 col-xs-offset-1 col-md-offset-2 ">
 
 <img class="center-img tall-gif-content img-responsive" src="/img/dashboard_chart.gif" >
-<h2 class="sub-header">A Dashboard So We Can Learn Together</h2>
-<p class="main-p">We go one step beyond our curriculum. We've created a system that lets you know how your students learn, improve and enjoy STEAM Academy! This ensures that everyone in the community is getting the most out of what we do.</p>
+<h2 class="sub-header">Students Who Can Create</h2>
+<div id="instafeed"></div>
     
 <div class="button-container">
-<a class="push myBtn" target>Come To My Site!</a>  
+<a class="push myBtn" target>Come To My Site!</a> 
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        sortBy 'most-liked';
+        userId : 'vrtual_craft',
+        clientId: '40a46731ccb0483d904a94128bac2be0'
+    });
+    feed.run();
+</script> 
+
 </div>
     
 </div>

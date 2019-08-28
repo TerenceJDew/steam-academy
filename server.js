@@ -72,7 +72,7 @@ var transporter = nodemailer.createTransport({
 console.log('created');
 
 transporter.sendMail({
-from: 'terencedew@kssteamacademy.com',
+from: 'tdew@kssteamacademy.com',
   to: 'terence.dew@gmail.com',
   subject: 'Interested:'+ name,
   text: textfield
